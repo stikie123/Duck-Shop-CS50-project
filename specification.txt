@@ -1,0 +1,30 @@
+HTML Tags Used:
+<nav>: Used to create the navigation bar at the top of each page.
+<ul>: Used for the unordered list of navigation links within the navbar.
+<li>: Used for individual list items within the navbar's list.
+<a>: Used for links within the navigation bar, gallery captions, and external artist links.
+<figure>: Used in the gallery to group images with their captions.
+<figcaption>: Used to add captions below images with links to the artist's site.
+<button>: Used for the "Go" and "Reset" buttons in the Duck Race page.
+<div>: Used as a container for layout structure and Bootstrap grid system.
+<img>: Used to display images in the gallery and other sections.
+<h2>: Used for the heading of the Duck Gallery page.
+
+CSS Properties Used:
+font-size: Used to control the size of text for headings and captions.
+text-align: Used to center-align captions under images in the gallery.
+margin: Used to create spacing around elements such as the navbar and images.
+padding: Applied to layout elements for inner spacing, enhancing readability.
+background-color: Set on the navbar for styling to fit the theme.
+
+Bootstrap Features:
+Navbar: Used Bootstrap’s navbar class to create a responsive navigation bar that collapses into a burger menu on smaller screens.
+Grid System: Used Bootstrap's grid classes (col-md-4, container, row) to create a responsive gallery layout.
+Modal: Used Bootstrap’s modal component to display enlarged images when clicked.
+
+JavaScript Features:
+Added a script to handle the "Go" and "Reset" buttons on the Duck Race page, animating ducks for a simple race.
+Added JavaScript on the gallery page to dynamically set the src of the modal’s image based on the clicked thumbnail, creating an interactive lightbox effect.
+
+Responsive Design:
+Used Bootstrap’s grid system and responsive navbar to ensure the website looks good on both desktop and mobile devices.
